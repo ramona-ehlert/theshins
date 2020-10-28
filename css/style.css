@@ -1,125 +1,126 @@
-body {
-    background-color: #F7A9A9;
-    line-height: 1.5rem;
+#card-container {
+  border-color: #ddc1f7;
+  border-style: outset;
+  border-width: 1rem;
+}
 
+body {
+  background-color: #ee8484;
+  line-height: 1.5rem;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 section {
-    padding: 1rem;
-    font-size: 1.25rem;
-    color: #3e5463;
-    
+  padding: 1rem;
+  font-size: 1.25rem;
+  color: #3e5463;
 }
 
 header {
-    background-color: #F7F7C1;
-    padding: 1rem;
-
+  background-color: #ddc1f7;
+  padding: 1rem;
 }
 
 p {
-    margin-top: 1.4rem;
-    margin-bottom: 1.4rem;
-    font-size: 1.25rem;
-    color: #3e5463;
-    
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+  font-size: 1.25rem;
+  color: #3e5463;
 }
+
 article h1 {
-    font-size: 2rem;
-    color: #8FCFF7;
-    text-shadow: #3e5463 5px 5px 5px;
+  font-size: 2rem;
+  color: #8FCFF7;
+  text-shadow: #3e5463 5px 5px 5px;
 }
 
 article h2 {
-    font-size: 1.5rem;
-    color: #8FCFF7;
-    text-shadow: #3e5463 5px 5px 5px;
+  font-size: 1.5rem;
+  color: #8FCFF7;
+  text-shadow: #3e5463 5px 5px 5px;
 }
 
 a {
-    color: #F7F7C1;
-    text-shadow: black 1px 1px 1px;
+  color: #ddc1f7;
+  text-shadow: black 1px 1px 1px;
 }
 
-a:hover {
-    color: goldenrod;
+a a:hover {
+  color: goldenrod;
 }
-
 
 .logo {
-    width: 450px;
+  width: 450px;
 }
 
 .banner {
-    background-image: url(../media/banner.png);
-    background-size: cover;
-    min-height: 600px;
-    background-position: top center;
-    margin-bottom: 2rem;
+  background-image: url(../media/banner.png);
+  background-size: cover;
+  min-height: 600px;
+  background-position: top center;
+  margin-bottom: 2rem;
 }
 
-
 .banner h3 {
-    color: #8FCFF7;
-    font-weight: bold;
-    font-size: 3rem;
-    text-transform: uppercase;
-    text-shadow: #3e5463 5px 5px 5px;
-    text-align: right;
+  color: #8FCFF7;
+  font-weight: bold;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-shadow: #3e5463 5px 5px 5px;
+  text-align: right;
 }
 
 .container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
 .heartworms {
-    float: left;
-    margin-right: 1rem;
-    margin-bottom: .7rem;
-    border-color: #F7F7C1;
-    border-style: outset;
-    border-width: 1rem;
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: .7rem;
+  border-color: #ddc1f7;
+  border-style: outset;
+  border-width: 1rem;
 }
 
 .live {
-    float: right;
-    margin-left: 1rem;
-    margin-bottom: .5rem;
-    height: 300px;
-    width: auto;
-    border-color: #F7F7C1;
-    border-style: outset;
-    border-width: 1rem;
+  float: right;
+  margin-left: 1rem;
+  margin-bottom: .5rem;
+  height: 300px;
+  width: auto;
+  border-color: #ddc1f7;
+  border-style: outset;
+  border-width: 1rem;
 }
 
 .musicvideo {
-    padding-top: 2rem;
-    background-color: #d88181;
-
+  padding-top: 2rem;
+  background-color: #d88181;
 }
 
 .australia {
-    width: 560px;
-    height: 315px;
-    float: right;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
-    border-color: #F7F7C1;
-    border-style: outset;
-    border-width: 1rem;
+  width: 560px;
+  height: 315px;
+  float: right;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  border-color: #ddc1f7;
+  border-style: outset;
+  border-width: 1rem;
 }
 
 footer {
-    font-size: 15px;
-    text-align: center;
+  font-size: 15px;
+  text-align: center;
 }
+/*# sourceMappingURL=style.css.map */

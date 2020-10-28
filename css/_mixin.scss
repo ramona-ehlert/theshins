@@ -1,0 +1,5 @@
+@mixin mediaborder() {
+    border-color: $primarycolor;
+    border-style: outset;
+    border-width: 1rem;
+}
